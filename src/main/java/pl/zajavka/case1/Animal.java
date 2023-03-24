@@ -7,4 +7,8 @@ public abstract class Animal {
     protected String whatIsYourName() {
         return "I don't have any";
     }
+
+    protected void whatDoYouEat(String eat) {
+        System.out.println(eat);
+    }
 }
